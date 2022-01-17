@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "public/mj-chemical/public",
     "ignore": [
       "firebase.json",
       "**/.*",
