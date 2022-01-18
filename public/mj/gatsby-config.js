@@ -60,12 +60,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     // uncomment this and input the trackingId to enable google analytics
-    // {
-    // resolve: `gatsby-plugin-google-analytics`,
-    // options: {
-    // trackingId: `ADD YOUR TRACKING ID HERE`,
-    // },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-48NM8NB5RY`,
+      },
+    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -76,7 +76,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `./static/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `./static/logo.jpg`, // This path is relative to the root of the site.
       },
     },
     // `gatsby-plugin-offline`,
