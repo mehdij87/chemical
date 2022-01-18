@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Flexible Gatsby`,
-    description: `I am a web developer focusing on front-end development. Always hungry to keep learning.`,
-    author: `David Freeman`,
-    siteUrl: `https://github.com/wangonya/flexible-gatsby`,
+    title: `MJ Explains`,
+    description: `This is a free resource where we will introduce you our products, their use cases and so much more`,
+    author: `M&J Trading Co.`,
+    siteUrl: `https://blog.mjexplains.com`,
     social: {
-      twitter: `wang0nya`,
+      twitter: ``,
       facebook: ``,
-      github: `wangonya`,
-      linkedin: `wangonya`,
-      email: `kwangonya@gmail.com`,
+      github: ``,
+      linkedin: ``,
+      email: `admin@mjexplains.com`,
     },
   },
   plugins: [
@@ -35,8 +35,8 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 970,
-	      withWebp: true,
-	      withAvif: true,
+              withWebp: true,
+              withAvif: true,
             },
           },
           {

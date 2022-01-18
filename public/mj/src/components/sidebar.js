@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import Logo from './pic.jpg'
+import Logo from './logo.jpg'
 
 const Sidebar = ({ siteMetadata }) => (
   <>
@@ -14,12 +14,12 @@ const Sidebar = ({ siteMetadata }) => (
             </Link>
           </div>
           <div className="author-name">{siteMetadata.author}</div>
-          <p>{siteMetadata.description}</p>
+          <p className="author-desc">{siteMetadata.description}</p>
         </div>
       </header>
       <footer>
         <section className="contact">
-          <h3 className="contact-title">Contact me</h3>
+          <h3 className="contact-title">Contact Us</h3>
           <ul>
             {siteMetadata.social.twitter && (
               <li>
