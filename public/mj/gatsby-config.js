@@ -3,7 +3,7 @@ module.exports = {
     title: `MJ Explains`,
     description: `This is a free resource where we will introduce you our products, their use cases and so much more`,
     author: `M&J Trading Co.`,
-    siteUrl: `https://blog.mjexplains.com`,
+    siteUrl: `https://mjexplains.com`,
     social: {
       twitter: ``,
       facebook: ``,
@@ -70,12 +70,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `flexible-gatsby-starter`,
-        short_name: `flexible-gatsby`,
+        name: `MJexplians`,
+        short_name: `MJX`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `fullscreen`,
+        background_color: `#3c4d2d`,
+        theme_color: `#3c4d2d`,
+        display: `standalone`,
         icon: `./static/logo.jpg`, // This path is relative to the root of the site.
       },
     },
