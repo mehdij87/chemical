@@ -156,11 +156,13 @@ footer {
   }
 
   .post-thumbnail {
-    width: 30%;
+    width: 25%;
     max-width: 100%;
     min-height: 11rem;
     background-size: cover;
     background-position: 50% 50%;
+    margin: 1%;
+    padding: 1%;
   }
 
   .post-content {
