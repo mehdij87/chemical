@@ -7,6 +7,7 @@ import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
 
 import 'katex/dist/katex.min.css'
+import Comments from '../components/comments'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -57,6 +58,7 @@ class BlogPostTemplate extends React.Component {
               </div>
             </div>
           </article>
+          <Comments />
         </div>
       </DefaultLayout>
     )
